@@ -6,7 +6,8 @@
 
 html{
     font-family: 'Acme', sans-serif;
-    color: var(--secondary);
+		color: var(--secondary);
+		scroll-behavior: smooth;
 }
 body {
 	background-color: var(--background);
@@ -49,6 +50,7 @@ h1{
 	font-family: 'Open Sans', sans-serif;
 }
 .quote-description span {
+	font-family: "Acme", sans-serif;
 	color: rgb(0,0,0);
 }
 .text-center {
@@ -73,4 +75,9 @@ h1{
 } */
 .logo-link-container img {
 	width: 30px;
+}
+.post-count-head {
+	font-family: "Acme", sans-serif;
+	font-size: 2rem;
+	color: #dff9df;
 }
