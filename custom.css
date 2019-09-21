@@ -21,6 +21,12 @@ h1{
     color: #f2f2f2;
 }
 
+@media(min-width: 768px) {
+	div .inner-container:nth-child(odd) .quote-container {
+		order: 2;
+	}
+}
+
 .inner-container {
 	background: #f2f2f2;
 	border-radius: 5px;
@@ -61,6 +67,13 @@ h1{
 .header-container {
 	margin-bottom: 4rem;
 } 
-.inner-container:nth-child(odd) .quote-container {
+/* .inner-container:nth-child(odd) .quote-container {
 	order: 2;
+} */
+.logo-link-container {
+	width: 30px;
+	vertical-align: middle;
+}
+.logo-link-container img {
+	width: 30px;
 }
