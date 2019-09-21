@@ -67,13 +67,10 @@ h1{
 .header-container {
 	margin-bottom: 4rem;
 } 
-/* .inner-container:nth-child(odd) .quote-container {
-	order: 2;
-} */
-.logo-link-container {
+/* .logo-link-container {
 	width: 30px;
 	vertical-align: middle;
-}
+} */
 .logo-link-container img {
 	width: 30px;
 }
